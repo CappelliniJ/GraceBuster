@@ -1,0 +1,491 @@
+body {
+    margin: 0;
+    font-size: 22px;
+    background: linear-gradient(
+        0deg,
+        rgba(235, 235, 235, 1) 85%,
+        rgba(212, 179, 35, 1) 100%
+    );
+}
+
+/* ----------------------- */
+
+/*    <a> Tag Styling      */
+
+/* ----------------------- */
+
+a {
+    text-decoration: none;
+}
+
+.movies > a,
+a:visited {
+    color: black;
+}
+
+/* ---------------------- */
+
+/*      Logo Styling      */
+
+/* ---------------------- */
+
+.logo {
+    width: 200px;
+    align-items: center;
+}
+
+.logo:hover {
+    animation: rotation 0.7s linear;
+}
+
+/* ----------------------- */
+
+/*      NavBar Styling     */
+
+/* ----------------------- */
+
+.navbar-container {
+    border-bottom: 2px black solid;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-right {
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: 1.75rem;
+}
+
+.nav-right > a:hover {
+    font-size: 1.85rem;
+    background-color: #fff;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 1em;
+}
+
+/* --------------------- */
+
+/*       Search Bar      */
+
+/* --------------------- */
+
+.search-bar {
+    width: 19%;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    font-size: 19px;
+    margin: 0 15px 0 0;
+}
+
+/* --------------------- */
+
+/*         Movies        */
+
+/* --------------------- */
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.movies {
+    width: 470px;
+    height: 530px;
+    margin: 8px 2px 40px 2px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    border: black 1px solid;
+    box-shadow: 1px 1px 8px black;
+}
+
+.movie-images {
+    width: 250px;
+    height: 325px;
+    box-shadow: 1px 1px 7px black;
+}
+
+.movies h2 {
+    padding: 20px;
+    margin: 2px;
+}
+
+.movies h3 {
+    margin: 2px;
+    font-style: italic;
+}
+
+.movies-btn,
+.single-movie-btn {
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    background-color: rgba(212, 179, 35, 1);
+    border: none;
+    color: white;
+}
+
+.movies-btn:hover,
+.single-movie-btn:hover {
+    width: 160px;
+    height: 60px;
+    font-size: 23px;
+    padding: 10px;
+    border: black solid 1px;
+    color: black;
+    background-color: rgb(240, 203, 40);
+}
+
+.movies:hover {
+    transform: scale(1.09);
+    box-shadow: 1px 1px 7px black;
+}
+
+/* ----------------------- */
+
+/*       Home Title        */
+
+/* ----------------------- */
+
+.homepage-title {
+    margin: 100px;
+}
+
+/* ----------------------- */
+
+/*       Shop Title        */
+
+/* ----------------------- */
+
+.homepage-shop {
+    text-decoration: underline;
+    margin: 120px 0;
+}
+
+/* ----------------------- */
+
+/*      About Section      */
+
+/* ----------------------- */
+
+.about-container {
+    background-color: white;
+    text-align: center;
+    max-width: 750px;
+    margin: 10px auto 50px auto;
+    border-radius: 10px;
+    padding: 20px 200px;
+    box-shadow: 1px 1px 7px black;
+}
+
+/* ---------------- */
+
+/*      Footer      */
+
+/* ---------------- */
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.contact-btn {
+    border-radius: 5px;
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/* ---------------------- */
+
+/*         Cart           */
+
+/* ---------------------- */
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 300px;
+    padding: 10px;
+}
+
+tfoot {
+    padding: 20px;
+}
+
+td {
+    border: solid 1px black;
+}
+
+.cart-movie-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-image {
+    height: 180px;
+    margin-right: auto;
+}
+
+.cart-movie-title {
+    margin-right: 46%;
+    font-weight: bold;
+}
+
+.cart-quanity {
+    width: 50px;
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.cart-container h1 {
+    text-align: center;
+}
+
+td button {
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+td i:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#empty-cart {
+    text-align: center;
+    margin: 100px;
+    font-family: 'ITC Machine';
+}
+
+.checkout-btn {
+    background-color: red;
+    font-family: 'ITC Machine';
+    padding: 15px;
+}
+
+/* ---------------------- */
+
+/*        Contact         */
+
+/* ---------------------- */
+
+#contact-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* --------------------------------- */
+
+/*         Login Container           */
+
+/* --------------------------------- */
+
+.login-container {
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+.actual-login-box {
+    border: black 1px solid;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    margin-top: 10%;
+    padding: 25px;
+    font-size: 30px;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+.actual-login-box input {
+    width: 300px;
+    height: 25px;
+    margin: 20px;
+}
+
+.login-btn {
+    width: 100px;
+    height: 40px;
+    border: black solid 1px;
+    font-size: 19px;
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+}
+
+.login-btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-btn {
+    background-color: transparent;
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* --------------------------------- */
+
+/*      Single Movie Container       */
+
+/* --------------------------------- */
+
+.single-movie-container {
+    background-color: white;
+    width: 59%;
+    margin: 50px auto 300px;
+    border: black 1px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px black;
+}
+
+.single-movie-btn {
+    margin: 25px;
+}
+
+.single-movie-image {
+    box-shadow: 1px 1px 7px black;
+}
+
+/* --------------------------------- */
+
+/*             Grouped               */
+/*         Container styling         */
+
+/* --------------------------------- */
+
+.about-container,
+.cart-container,
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-container,
+.cart-container,
+.contact-container,
+.order-placed-container {
+    min-height: calc(100vh - 272px);
+}
+
+.login-container,
+.account-container,
+.single-movie-container {
+    min-height: calc(100vh - 172px);
+}
+
+/* --------------------------------- */
+
+/*      Imported Font for titles
+               and styling           */
+
+/* --------------------------------- */
+
+.about-title,
+.home-shop,
+.homepage-title,
+.cart-container h1,
+.contact-container,
+.order-placed-container,
+.account-container,
+.single-movie-container {
+    font-family: 'ITC Machine';
+    letter-spacing: 2.5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cart-container h1 {
+    text-align: center;
+    font-size: 49px;
+}
+
+@font-face {
+    font-family: 'ITC Machine';
+    src: url('MachineStd.otf') format('opentype');
+}
+
+/* ----------------------- */
+
+/*        Animation        */
+
+/* ----------------------- */
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
